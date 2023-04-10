@@ -4,7 +4,7 @@ Yet another simple IDAPython plugin that can help find usage patterns for dynami
 
 
 
-### For example, suspicious call may look like:
+### For example, suspicious call can look like:
 ```
 push  40h
 push  3000h
