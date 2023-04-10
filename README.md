@@ -28,6 +28,6 @@ At the same time, my experience of using the plugin shows that in many average s
 
 
 ### TODO:
-implement a version for x64 (i.e. for __fastcall x64);
-implement a version for __fastcall in x86 and __thiscall;
-continue filling and improving the database of patterns.
+- implement a version for x64 (i.e. for __fastcall x64);
+- implement a version for __fastcall in x86 and __thiscall;
+- continue filling and improving the database of patterns.
