@@ -51,6 +51,15 @@ def guess():
                             [0x4, 0x10, 0x20, 0x80, 0x40],\
                             "maybe VirtualAllocEx"]
     pattern_list.append(pattern_VirtualAllocEx)
+    
+    
+    pattern_VirtualProtect = [0,\
+                        0,\
+                        [0x1, 0x2, 0x4, 0x8, 0x10, 0x20, 0x80, 0x40],\
+                        0,\
+                        "maybe VirtualProtect"]
+
+    pattern_list.append(pattern_VirtualProtect)
 
 
     pattern_CreateProcess = [0,\
